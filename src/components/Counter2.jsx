@@ -8,10 +8,10 @@ const Counter2 = () => {
       <FormGroup>
         <FormControlLabel
           control={<Switch defaultChecked />}
-          label="آپلود فایل"
+          label=""
+          style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}
+        
         />
-        {/* <FormControlLabel required control={<Switch />} label="Required" />
-          <FormControlLabel disabled control={<Switch />} label="Disabled" /> */}
       </FormGroup>
     </div>
     );
