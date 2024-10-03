@@ -1,19 +1,8 @@
-import * as React from "react";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Switch from "@mui/material/Switch";
-const Counter2 = () => {
-  return (
-    <div>
-      <FormGroup>
-        <FormControlLabel
-          control={<Switch defaultChecked />}
-          label=""
-          style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}
-        
-        />
-      </FormGroup>
-    </div>
-    );
-  };
-export default Counter2;
+import React from 'react';
+import { Space, Switch } from 'antd';
+const App = () => (
+  <Space direction="vertical">
+    <Switch checkedChildren="سوال" unCheckedChildren="محتوا" defaultunChecked />
+  </Space>
+);
+export default App;
