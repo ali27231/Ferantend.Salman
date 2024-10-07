@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/my-nextui-app
+/material-ui
 # testing
 /coverage
 
